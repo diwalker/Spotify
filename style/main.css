@@ -1,0 +1,101 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face {
+	font-family: TTCommons;
+	src: url(../img/TTCommons.ttf)
+}
+
+div .containter {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    align-items:center;
+}
+
+body {
+    background-color: rgb(41, 65, 171);
+    background-position: center top 30%;
+    background-repeat: no-repeat;
+    background-size: 195%;
+    height: 100vh;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.logo img {
+    height: 10%;
+    width:  10%;
+    padding: 10px;
+    margin: 10px;
+    display: inline;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+nav .links {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 5px;
+    margin: 10px;
+    font-size: 36px;
+    font-family: TTCommons;
+}
+
+a:link, a:visited {
+	text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-family: TTCommons;
+    padding: 10px;
+
+
+
+
+   
+	}
+a:hover {
+	text-decoration: underline;
+	color: #f00
+	}
+a:active {
+	text-decoration: none
+	}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between; 
+}
+
+header {
+    background-color: #000;
+    color: #fff;
+  }
+
+.escutar {
+      color: #1ed760;
+      font-family: TTCommons;
+      font-size: 140px;
+      text-align: center;
+      padding: 90px;
+
+
+}
+
+.txt {
+    color: #1ed760;
+      font-family: TTCommons;
+      font-size: 20px;  
+      text-align: center;
+
+  }
+
+  
